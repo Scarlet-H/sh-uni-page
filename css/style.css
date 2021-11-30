@@ -631,3 +631,128 @@ nav a.active{
         bottom: -6260px;
     }
 }
+/* section six */
+.section-six{
+    height: 904px;
+    background-color: #d74681;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section-six header{
+    height:30%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;    
+    margin-bottom: 30px;
+}
+.section-six header h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-top: 115px;    
+}
+.section-six header h2:after{
+    content:' ';
+    position: absolute;
+    border-bottom: 4px solid #b73b6f;
+    left: calc(50% - 50px);
+    width: 100px;
+    bottom: -4355px;
+}
+.section-six header p{
+    margin-top: 48px;
+    width:640px;
+    text-align:center;
+    font-size:1.2rem;
+}
+.section-six article{
+    margin-left: 275px;
+    margin-right: 275px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section-six article div{
+    margin: 10px;
+    margin-bottom:35px;
+    display: flex;
+    justify-content: space-around;
+}
+.circle2{
+    font-size: 120px;
+    color: #787878;
+}
+.name__card{
+    font-size: 18px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.name__card p{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.name__card h4{
+    text-transform: uppercase;
+    font-size: 27px;
+}
+.prof{
+    color:#ffb2a4;
+    font-size: 19px;
+}
+@media screen and (max-width:1400px){
+    .section-six{
+        width: auto;
+        height: auto;
+    }
+    .section-six article{
+        grid-template-columns: 1fr;
+    }
+    .section-six header h2:after{
+        content:' ';
+        position: absolute;
+        left: calc(50% - 50px);
+        width: 100px;
+        bottom: -5810px;
+    }
+}
+@media screen and (max-width:1200px){
+    .section-six header h2:after{
+        bottom:-6130px;
+    }
+}
+@media screen and (max-width:900px){
+    .section-six header h2:after{
+        bottom:-6170px;
+    }
+}
+@media screen and (max-width:790px){
+    .section-six{
+        height: 1728px;
+    }
+    .section-six article{
+        width:auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-six header{
+        height:20%;
+        margin-bottom: 0px;
+    }
+    .section-six header h2{
+        width: 500px;
+    }
+    .section-six article div{
+        margin-top:2px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .name__card p{
+        margin-bottom: 15px;
+    }
+    .section-six header h2:after{
+        bottom: -7180px;
+    }
+}
