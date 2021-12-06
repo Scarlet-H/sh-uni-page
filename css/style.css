@@ -847,3 +847,86 @@ nav a.active{
 .section-seven footer div p{
     margin-top: 67px;
 }
+@media screen and (max-width:1440px){
+    .section-seven header h2:after{
+        bottom: -6720px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .section-seven header h2:after{
+        bottom: -7430px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .message-field{
+        width: 530px;
+    }
+    .text-fields div input{
+        margin:14px;
+        margin-bottom: 0px;
+        height:44px;
+        width: 522px;
+    }
+    .text-fields div{
+        margin-bottom: 28px;
+        margin-left: 156px;
+    }
+    .send-button{
+        width:538px;
+    }
+    .section-seven footer div{
+        font-size:18px;
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width:850px){
+    .text-fields div{
+        margin-bottom: 28px;
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:790px){
+    .section-seven{
+        height:940px;
+    }
+    .section-seven footer{
+        height:123px;
+    }
+    .section-seven header p{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .section-seven header h2:after{
+        bottom:-8000px;
+    }
+    .message-field{
+        width: 530px;
+    }
+    .text-fields div input{
+        margin:14px;
+        margin-bottom: 0px;
+        height:44px;
+        width: 522px;
+    }
+    .text-fields div{
+        margin-bottom: 28px;
+        margin-left: 96px;
+    }
+    .send-button{
+        width:538px;
+    }
+    .section-seven footer div{
+        font-size:18px;
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+    .section-seven footer div p{
+        margin-top: 55px;
+    }
+    .section-seven header h2:after{
+        bottom: -8846px;
+    }
+}
